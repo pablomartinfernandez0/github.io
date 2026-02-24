@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f4f8;
+    color: #222;
+}
+
+header {
+    background: #002B55;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+#navbar {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    background: #003B70;
+    padding: 15px 0;
+}
+
+#navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.section {
+    max-width: 900px;
+    margin: 40px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.card {
+    background: #e8eef5;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.date {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.skills span {
+    background: #003B70;
+    padding: 8px 12px;
+    color: white;
+    border-radius: 8px;
+    margin: 5px;
+    display: inline-block;
+}
+
+footer {
+    text-align: center;
+    background: #002B55;
+    color: white;
+    padding: 15px;
+    margin-top: 40px;
+}
