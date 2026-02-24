@@ -1,9 +1,3 @@
-// Smooth scrolling
-document.querySelectorAll('#navbar a').forEach(anchor => {
-    anchor.addEventListener('click', function(e) {
-        e.preventDefault();
-        document.querySelector(this.getAttribute('href')).scrollIntoView({
-            behavior: 'smooth'
-        });
-    });
-});
+document.getElementById("themeToggle").onclick = () => {
+    document.body.classList.toggle("light");
+};
