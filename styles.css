@@ -1,64 +1,76 @@
 body {
+    font-family: 'Inter', sans-serif;
     margin: 0;
-    font-family: Arial, sans-serif;
-    background: #f4f4f8;
-    color: #222;
+    background: #eef0f7;
+    color: #1a1a1a;
 }
 
-header {
-    background: #002B55;
-    color: white;
-    text-align: center;
-    padding: 40px 20px;
+.topbar {
+    background: #0a2a43;
+    padding: 12px 0;
+    position: sticky;
+    top: 0;
 }
 
-#navbar {
+.topbar .container {
     display: flex;
-    justify-content: center;
-    gap: 30px;
-    background: #003B70;
-    padding: 15px 0;
+    justify-content: space-between;
+    align-items: center;
 }
 
-#navbar a {
-    color: white;
+.nav a {
+    color: #fff;
     text-decoration: none;
-    font-weight: bold;
+    margin-right: 20px;
+    font-weight: 600;
+}
+
+.nav button {
+    background: #ffaa00;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.hero {
+    text-align: center;
+    padding: 60px 0;
+    background: #0a2a43;
+    color: white;
+}
+
+.hero .email {
+    color: #00e1ff;
+    font-weight: 600;
 }
 
 .section {
+    padding: 40px 0;
+}
+
+.alt {
+    background: #f7f9fc;
+}
+
+.container {
+    width: 90%;
     max-width: 900px;
-    margin: 40px auto;
-    background: white;
-    padding: 25px;
-    border-radius: 10px;
+    margin: auto;
 }
 
 .card {
-    background: #e8eef5;
-    padding: 15px;
-    border-radius: 8px;
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
     margin-bottom: 20px;
 }
 
-.date {
-    font-size: 0.9rem;
-    color: #555;
-}
-
-.skills span {
-    background: #003B70;
+.tags li, .skills li {
+    display: inline-block;
+    background: #0a2a43;
     padding: 8px 12px;
     color: white;
     border-radius: 8px;
     margin: 5px;
-    display: inline-block;
-}
-
-footer {
-    text-align: center;
-    background: #002B55;
-    color: white;
-    padding: 15px;
-    margin-top: 40px;
 }
