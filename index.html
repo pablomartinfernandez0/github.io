@@ -1,84 +1,133 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pablo Martín Fernández - IT/OT Manager</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Pablo Martín Fernández – IT/OT Manager</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Fuente limpia y legible -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
 </head>
 
 <body>
-
-<header>
-    <h1>Pablo Martín Fernández</h1>
-    <h2>IT/OT Manager</h2>
-    <p>Valladolid, Castilla y León · 
-        <a href="mailto:Pablomartinfernandez0@gmail.com">Pablomartinfernandez0@gmail.com</a>
-    </p>
-</header>
-
-<nav id="navbar">
-    <a href="#experiencia">Experiencia</a>
-    <a href="#formacion">Formación</a>
-    <a href="#certificaciones">Certificaciones</a>
-    <a href="#habilidades">Habilidades</a>
-</nav>
-
-<section id="perfil" class="section">
-    <h3>Perfil Profesional</h3>
-    <p>
-        IT/OT Manager con sólida experiencia liderando equipos técnicos, gestionando infraestructuras críticas,
-        transformando entornos tecnológicos industriales y alineando la estrategia IT con los objetivos del negocio.
-        Experto en continuidad operativa, ciberseguridad, Industria 4.0, gestión de proveedores y despliegue de soluciones.
-    </p>
-</section>
-
-<section id="experiencia" class="section">
-    <h3>Experiencia Profesional</h3>
-
-    <div class="card">
-        <h4>Findus España (Nomad Foods) – SU IT/OT Manager</h4>
-        <span class="date">May 2024 – Actualidad</span>
-        <ul>
-            <li>Liderazgo del área IT/OT y coordinación con departamentos globales.</li>
-            <li>Gestión de presupuesto, planificación tecnológica y análisis de ROI.</li>
-            <li>Administración de servidores, redes, OT y bases de datos.</li>
-            <li>Gobierno IT, seguridad, SLAs y continuidad de negocio.</li>
-        </ul>
+  <!-- Barra superior fija -->
+  <header class="topbar">
+    <div class="container">
+      <a class="brand" href="#perfil">Pablo Martín Fernández</a>
+      <nav class="nav" id="navbar">
+        <a href="#experiencia">Experiencia</a>
+        <a href="#formacion">Formación</a>
+        <a href="#certificaciones">Certificaciones</a>
+        <a href="#habilidades">Habilidades</a>
+        <button id="themeToggle" aria-label="Cambiar tema">🌓</button>
+      </nav>
     </div>
+  </header>
 
-    <div class="card">
-        <h4>Grupo Renault – Técnico Responsable de Despliegue</h4>
-        <span class="date">2023 – 2024</span>
-        <ul>
-            <li>Dirección del despliegue del Digital Services Portal.</li>
-            <li>Coordinación regional y soporte nivel 3.</li>
-            <li>Formación especializada a equipos técnicos.</li>
-        </ul>
+  <!-- Portada -->
+  <section class="hero">
+    <div class="container">
+      <h1>IT/OT Manager</h1>
+      <p class="location">Valladolid, Castilla y León, España</p>
+      <p>
+        <a class="mail" href="mailto:Pablomartinfernandez0@gmail.com">Pablomartinfernandez0@gmail.com</a>
+      </p>
+      <ul class="highlights">
+        <li>Liderazgo de equipos técnicos</li>
+        <li>Infraestructura & Seguridad</li>
+        <li>Industria 4.0 & OT</li>
+        <li>Gestión de proveedores & SLAs</li>
+      </ul>
+      <a href="#experiencia" class="btn">Ver experiencia</a>
     </div>
+  </section>
 
-    <div class="card">
-        <h4>ARABAT – Técnico de Telecomunicaciones</h4>
-        <span class="date">2021 – 2023</span>
-        <ul>
-            <li>Administración de redes, sistemas, servidores y GMAO.</li>
-            <li>Monitorización, ticketing y soporte avanzado.</li>
-        </ul>
+  <!-- Perfil -->
+  <section id="perfil" class="section">
+    <div class="container">
+      <h2>Perfil profesional</h2>
+      <p>
+        IT/OT Manager con sólida experiencia liderando equipos, gestionando infraestructuras críticas y
+        alineando la estrategia de TI con objetivos de negocio. Foco en continuidad operativa, ciberseguridad,
+        gobierno IT, Industria 4.0, gestión de presupuestos y mejora continua.
+      </p>
     </div>
-</section>
+  </section>
 
-<section id="formacion" class="section">
-    <h3>Formación Académica</h3>
-    <ul>
-        <li><strong>Universidad de Valladolid:</strong> Ingeniería en Telecomunicaciones (2021–Actualidad)</li>
-        <li><strong>IES Julián Marías:</strong> Ciberseguridad en TI (2024–2025)</li>
-        <li><strong>EGIBIDE:</strong> Técnico Superior en Telecomunicaciones y Redes (2019–2021)</li>
-    </ul>
-</section>
+  <!-- Experiencia en timeline -->
+  <section id="experiencia" class="section">
+    <div class="container">
+      <h2>Experiencia profesional</h2>
 
-<section id="certificaciones" class="section">
-    <h3>Certificaciones</h3>
-    <ul>
+      <ol class="timeline">
+        <li class="timeline-item">
+          <div class="timeline-card">
+            <h3>SU IT/OT Manager — Findus España (Nomad Foods)</h3>
+            <p class="meta">May 2024 – Actualidad · Valladolid (Híbrido)</p>
+            <ul>
+              <li>Liderazgo del área IT/OT local y coordinación con equipos globales.</li>
+              <li>Gestión de presupuesto, planificación tecnológica y análisis de ROI.</li>
+              <li>Administración de servidores, redes, dispositivos OT y bases de datos (MySQL/MariaDB/PostgreSQL).</li>
+              <li>Gobierno IT, seguridad, gestión de cambios y continuidad de negocio. Helpdesk (ServiceNow, GLPI).</li>
+            </ul>
+          </div>
+        </li>
+
+        <li class="timeline-item">
+          <div class="timeline-card">
+            <h3>Técnico Responsable de Despliegue — Grupo Renault (Aubay Spain)</h3>
+            <p class="meta">Ago 2023 – May 2024 · Valladolid (Híbrido)</p>
+            <ul>
+              <li>Dirección operativa del despliegue del Digital Services Portal (zona norte; escalable a nivel nacional).</li>
+              <li>Pruebas funcionales, soporte L3 y formación presencial/remota.</li>
+              <li>Coordinación con responsables regionales y equipo de desarrollo para mejora continua.</li>
+            </ul>
+          </div>
+        </li>
+
+        <li class="timeline-item">
+          <div class="timeline-card">
+            <h3>Técnico de Telecomunicaciones — ARABAT</h3>
+            <p class="meta">Jun 2021 – Sept 2023 · Vitoria‑Gasteiz (Presencial, etapas sucesivas)</p>
+            <ul>
+              <li>Administración de redes, sistemas, servidores de videograbación y GMAO.</li>
+              <li>Ticketing, monitorización en red y puesta en marcha de sistemas.</li>
+              <li>Implementación de monitorización en Linux; soporte a múltiples sedes.</li>
+            </ul>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- Formación -->
+  <section id="formacion" class="section alt">
+    <div class="container">
+      <h2>Formación académica</h2>
+      <div class="cards">
+        <article class="card">
+          <h3>Grado en Ingeniería en Tecnologías de Telecomunicación</h3>
+          <p class="meta">Universidad de Valladolid · 2021 – Actualidad</p>
+        </article>
+        <article class="card">
+          <h3>Curso de Especialización en Ciberseguridad en Entornos de TI</h3>
+          <p class="meta">IES Julián Marías · 2024 – 2025</p>
+        </article>
+        <article class="card">
+          <h3>Técnico Superior en Sistemas de Telecomunicaciones y Redes</h3>
+          <p class="meta">EGIBIDE · 2019 – 2021</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certificaciones -->
+  <section id="certificaciones" class="section">
+    <div class="container">
+      <h2>Certificaciones destacadas</h2>
+      <ul class="tags">
         <li>Google Project Management</li>
         <li>Google IT Automation with Python</li>
         <li>Google Cybersecurity Certificate</li>
@@ -86,32 +135,37 @@
         <li>Cisco Network Technician</li>
         <li>Cisco Python Essentials 1 & 2</li>
         <li>Cisco Cyber Threat Management</li>
-        <li>OpenWebinars – Gobierno IT, riesgos, automatización</li>
-        <li>MainJobs – Ciberseguridad avanzada OT</li>
-    </ul>
-</section>
-
-<section id="habilidades" class="section">
-    <h3>Habilidades</h3>
-    <div class="skills">
-        <span>Liderazgo Técnico</span>
-        <span>Gestión de Equipos</span>
-        <span>Gobierno IT</span>
-        <span>Industria 4.0</span>
-        <span>Windows/Linux Server</span>
-        <span>SQL</span>
-        <span>Project Management</span>
-        <span>ServiceNow</span>
-        <span>Power BI</span>
-        <span>Ciberseguridad OT</span>
+        <li>OpenWebinars: Gobierno IT, Riesgos, Incidentes, Automatización</li>
+        <li>MainJobs: Ciberseguridad Avanzada OT</li>
+      </ul>
     </div>
-</section>
+  </section>
 
-<footer>
-    <p>© 2026 Pablo Martín Fernández – IT/OT Manager</p>
-</footer>
+  <!-- Habilidades -->
+  <section id="habilidades" class="section alt">
+    <div class="container">
+      <h2>Habilidades</h2>
+      <ul class="skills">
+        <li>Liderazgo técnico</li>
+        <li>Gestión de equipos</li>
+        <li>Gobierno IT / ITIL</li>
+        <li>Industria 4.0 / Seguridad OT</li>
+        <li>Windows & Linux Server</li>
+        <li>Networking (LAN/WAN/VLAN)</li>
+        <li>Bases de datos SQL</li>
+        <li>Automatización con Python</li>
+        <li>ServiceNow & GLPI</li>
+        <li>Power BI & PowerApps</li>
+      </ul>
+    </div>
+  </section>
 
-<script src="script.js"></script>
+  <footer class="footer">
+    <div class="container">
+      <small>© 2026 Pablo Martín Fernández · IT/OT Manager</small>
+    </div>
+  </footer>
 
+  <script src="script.js"></script>
 </body>
 </html>
